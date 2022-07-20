@@ -1,0 +1,211 @@
+.first_section
+{
+    background-image: url("../images/bg-header-desktop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo_img
+{
+    padding-top: 200px;
+}
+.text_first
+{
+    text-align: center;
+}
+.text_first h2  
+{
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 36px;
+}
+.text_first p
+{
+    color: hsl(201, 11%, 66%);
+    padding-top: 10px;
+}
+.ios_button
+{
+        background-color: hsl(171, 66%, 44%);
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px 10px 15px;
+        border-radius: 25px;
+}
+.mac_button
+{
+    background-color:hsl(233, 100%, 69%);
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px 10px 15px;
+    border-radius: 25px;
+}
+.ios_button:hover
+{
+    background-color: hsla(171, 66%, 44%,.7);
+    transition: .5s;
+    text-decoration: none;
+    color: white;
+}
+.mac_button:hover
+{
+    background-color: hsla(233, 100%, 69%,.7);
+    transition: .5s;
+    text-decoration: none;
+    color: white;
+}
+.ios_button:hover
+{
+    background-color: hsla(171, 66%, 44%,.7);
+    transition: .5s;
+    text-decoration: none;
+    color: white;
+}
+@media(max-width:375px)
+{
+    .mac_button
+    {
+        display: block;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .ios_button
+    {
+        display: block;
+        text-align: center;
+    }
+    .image_one img
+    {
+        width: 320px;
+        height: 250px;
+    }
+    .text_second_third,.text_second_second,.text_second_first
+    {
+        text-align: center;
+    }
+    .second_img
+    {
+        width: 340px;
+        height: 230px;
+    }
+    .press,.contact
+    {
+        padding-left: 15px;
+    }
+}
+
+
+/* second part */
+
+.text_second
+{
+    text-align: center;
+}
+.text_second h2  
+{
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 36px;
+}
+.text_second p
+{
+    color: hsl(201, 11%, 66%);
+    padding-top: 10px;
+}
+.text_second_first h3
+{
+    color: hsl(210, 10%, 33%);
+}
+.text_second_second h3
+{
+    color: hsl(210, 10%, 33%);
+}
+.text_second_third h3
+{
+    color: hsl(210, 10%, 33%);
+}
+.text_second_first p
+{
+    color: hsl(201, 11%, 66%);
+}
+.text_second_second p
+{
+    color: hsl(201, 11%, 66%);
+}
+.text_second_third p
+{
+    color: hsl(201, 11%, 66%);
+}
+
+
+
+
+/* third part */
+
+.text_third
+{
+    text-align: center;
+}
+.text_third h2  
+{
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 36px;
+}
+.text_third p
+{
+    color: hsl(201, 11%, 66%);
+    padding-top: 10px;
+}
+
+
+/* fourth part */
+.text_fourth
+{
+    text-align: center;
+}
+.text_fourth h2
+{
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 36px;
+}
+.text_fourth p
+{
+    color: hsl(201, 11%, 66%);
+    padding-top: 10px;
+}
+.fourth_row
+{
+    text-align: center;
+}
+.fourth_row h3
+{
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 36px;
+}
+.fourth_row p
+{
+    color: hsl(201, 11%, 66%);
+    padding-top: 10px;
+}
+.fourth_row_second img
+{
+    margin-top: 70px;
+}
+.img_one
+{
+    display: block;
+    padding-right: 210px;
+}
+
+
+
+/* footer */
+.footer_last
+{
+    margin-top: 150px;
+    padding-bottom: 40px;
+    background-color: hsl(200, 10%, 82%);
+}
